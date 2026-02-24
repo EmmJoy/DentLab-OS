@@ -1,0 +1,22 @@
+composer require maatwebsite/excel
+composer require maatwebsite/excel:"^3.1"
+composer dump-autoload -o
+php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider" --tag=config
+composer require phpoffice/phpspreadsheet
+composer require phpoffice/phpspreadsheet
+composer dump-autoload -o
+php artisan optimize:clear
+php artisan route:clear
+
+
+
+
+Open this file: c:\xampp\php\php.ini
+Find and ensure these lines are uncommented (no leading “;”):
+extension=gd
+extension=zip
+extension=mbstring
+extension=xml
+extension=dom
+extension=simplexml
+Save the file.
