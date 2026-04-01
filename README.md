@@ -47,9 +47,7 @@
 
 ---
 
-## 📸 Screenshots
 
-_Add screenshots of your dashboard, patient list, or cart here for a more attractive README._
 
 ```
 <!-- Example: ![Dashboard](screenshots/dashboard.png) -->
